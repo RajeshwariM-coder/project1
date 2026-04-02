@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <title>dynamic page & DOM</title>
+    <script>
+    function changeContent(){
+        var text=document.getElementById("demo");
+        text.innerHTML="welcome";
+        text.style.color="violet";
+    }
+    </script>
+</head>
+<body>
+    <h2>dynamic webpage</h2>
+    <p id="demo">click the button to change this text</p>
+    <button onclick="changeContent()">click me</button>
+</body>
+</html>
+
